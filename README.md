@@ -28,7 +28,32 @@ You can test the trained model using three different scripts, based on the weigh
 3. **`predict_live_video.py`** 🎥  
    Uses your camera feed to continuously predict whether each frame contains a cat or a dog.
 
+---
 
+## 📊 Model Performance
+- **Validation Accuracy:** 84.1%  
+- **Training Epochs:** 30  
+
+This accuracy was achieved on the validation set after training the model for 30 epochs using the CNN defined in `model.py`.
+
+---
+
+
+## 📸 Screenshots
+
+### Training Progress
+Epochs and validation accuracy over time:
+
+![Training Epochs Screenshot 1](epochs1-19.png)
+![Training Epochs Screenshot 2](epochs20-30.png)
+
+### Model Prediction
+Example of the model predicting an image:
+
+![Prediction Screenshot](screenshots/prediction.png)
+
+---
 
 ## Appendix
 Source for data set: https://www.microsoft.com/en-us/download/details.aspx?id=54765
+
