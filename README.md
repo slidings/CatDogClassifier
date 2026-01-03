@@ -31,7 +31,7 @@ You can test the trained model using three different scripts, based on the weigh
 ---
 
 ## 📊 Model Performance
-- **Validation Accuracy:** 84.1%  
+- **Validation Accuracy:** 88.2%  
 - **Training Epochs:** 30  
 
 This accuracy was achieved on the validation set after training the model for 30 epochs using the CNN defined in `model.py`.
